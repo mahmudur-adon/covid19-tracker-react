@@ -2,6 +2,7 @@
   "name": "covid19",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://disease.sh",
   "homepage":"https://mahmudur-adon.github.io/covid19-tracker-react",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
