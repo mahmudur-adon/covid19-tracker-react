@@ -80,7 +80,6 @@ await fetch(url)
 
 };
 
-console.log(countryInfo);
   return (
     <div className="app">
       <div className="app_left">

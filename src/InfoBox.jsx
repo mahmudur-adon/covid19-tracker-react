@@ -14,11 +14,11 @@ function InfoBox({title,cases,isRed,active,total, ...props}) {
             {title}
           </Typography>
           <h2 className={`infoBox__cases ${!isRed && "infoBox__cases--green"}`}>
-            {cases} Today
+            {total} Total
           </h2>
           <Typography className="infoBox__total" color="textSecondary">
-                    {total} Total
-                </Typography >
+            {case} Today
+          </Typography>
         </CardContent>
       </Card>
     );
